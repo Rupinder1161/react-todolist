@@ -19,13 +19,13 @@ class Todoinput extends Component {
                </div>
                <input type="text" 
                className="form-control text-capitalize"
-               placeholder="todo"
+               placeholder="Complaint Description"
                value={item}
                onChange={handleChnage}
                />
               </div>
               <button type="submit" className={editItem ? "btn btn-block btn-success mt-3" : "btn btn-block btn-primary mt-3"} >
-                  {editItem ? "edit Item":"add item"}</button>
+                  {editItem ? "edit Complaint":"Add Complaint"}</button>
              </form>
              
          </div>
